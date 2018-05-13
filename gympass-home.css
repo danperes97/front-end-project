@@ -1,0 +1,239 @@
+.nav-site-links {
+  float : left;
+}
+
+.nav-registration-links {
+  float      : right;
+  margin-top : 16px;
+}
+
+.clearfix {
+  clear : both;
+}
+
+header nav li {
+  display        : inline-block;
+  padding-right  : 20px;
+  vertical-align : middle;
+}
+
+header nav li a {
+  color           : #ff1933;
+  font-size       : 1.125em;
+  font-weight     : bolder;
+  text-decoration : none;
+}
+
+.logo-area img {
+  width  : 100%;
+  height : 100%;
+}
+
+figure.logo-area {
+  position   : relative;
+  margin-top : 0px;
+}
+
+figure.logo-area img {
+  width  : 100%;
+  height : 100%;
+}
+
+figure.logo-area figcaption {
+  color     : white;
+  max-width : 35%;
+  padding   : 10%;
+  position  : absolute;
+  top       : 0px;
+}
+
+figure.logo-area figcaption h1 {
+  font-size : 3vw;
+  position  : absolute;
+  top       : 10%;
+}
+
+figure.logo-area figcaption ul {
+  font-size   : 1.5vw;
+  line-height : 1.6;
+  padding-top : 10%;
+}
+
+.container {
+  font-family : open_sansbold,
+                Arial,
+                sans-serif;
+  margin      : auto;
+  overflow    : hidden;
+  width       : 100%;
+}
+
+.explanation-content {
+  margin         : auto;
+  padding-top    : 10px;
+  padding-bottom : 20px;
+  text-align     : center;
+  width          : 38%;
+}
+
+.plan-explanation {
+  color : #585858;
+}
+
+.plan-explanation h2 {
+  font-size   : 1em;
+  font-weight : bold;
+}
+
+.plan-advantages {
+  display      : inline-flex;
+  margin-right : 10%;
+  margin-left  : 10%;
+  text-align   : center;
+}
+
+.plan-advantages .card {
+  padding-left : 30px;
+  width        : 100%;
+}
+
+.available-modalities header h2 {
+  margin         : auto;
+  padding-bottom : 30px;
+  text-align     : center;
+  width          : 50%;
+}
+
+.available-modalities header .filters {
+  padding-left : 10%;
+}
+
+.available-modalities {
+  background-color : #5e5e5e2e;
+  margin-top       : 30px;
+  padding          : 30px;
+}
+
+.modalities-carousel .card {
+  background-color : white;
+  box-shadow       : 0px 0px 5px rgba(0, 0, 0, 0.4);
+  margin-top       : 20px;
+  margin-right     : 15px;
+  padding          : 20px;
+  text-align       : center;
+  width            : 25%;
+  height           : 400px;
+}
+
+.modalities-carousel {
+  display : inline-flex;
+}
+
+.carousel-pagination {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.carousel-pagination button {
+  padding-right: 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.carousel-pagination .selected {
+  background-color: black;
+  border-radius: 100%;
+  border: 13px solid black;
+}
+
+.carousel-pagination .pages {
+  background-color: white;
+  border-radius: 100%;
+  border: 13px solid white;
+}
+
+.questions h2 {
+  color      : #454343;
+  text-align : center;
+}
+
+.questions h3 {
+  color : #454343;
+}
+
+.questions {
+  margin-right  : 2%;
+  margin-bottom : 20px;
+  margin-left   : 2%;
+  padding       : 25px;
+}
+
+.questions p {
+  color     : #585858;
+  font-size : 0.83em;
+}
+
+.questions .left-column {
+  display : block;
+  float   : left;
+  width   : 46%;
+}
+
+.questions .right-column {
+  display : block;
+  float   : right;
+  width   : 48%;
+}
+
+.questions .faq h3 {
+  border    : 1px solid #9b8e8e;
+  color     : #9b8e8e;
+  font-size : 0.83em;
+  margin    : auto;
+  padding   : 10px 40px 10px 40px;
+  width     : fit-content;
+}
+
+.questions-container {
+  background-color : #ececec7a;
+  padding          : 10px;
+}
+
+.questions-content a {
+  color           : #ff1933;
+  text-decoration : none;
+}
+
+.questions .faq {
+  margin-top : 10%;
+}
+
+footer .tips-gympass {
+  display : inline-flex;
+}
+
+footer .footer-content {
+  color       : white;
+  line-height : 60%;
+  padding     : 35px;
+  text-align  : center;
+}
+
+footer .footer-content span {
+  font-weight   : bold;
+  margin-top    : 2%;
+  padding-right : 20px;
+}
+
+footer {
+  background-color : #4f4f4f;
+}
+
+.footer-content .submit {
+  background-color : #ecececb5;
+  border           : none;
+  color            : #545454;
+  font-size        : 1em;
+  font-weight      : bold;
+  padding          : 12px;
+}
